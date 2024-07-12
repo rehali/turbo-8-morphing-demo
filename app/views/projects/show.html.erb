@@ -1,3 +1,5 @@
+<%= turbo_stream_from @project %>
+
 <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     <li>
@@ -12,6 +14,5 @@
 <%= render "projects/header", project: @project %>
 <%= render "projects/add_task_form", project: @project %>
 <%= render "projects/tasks", project: @project, tasks: @tasks %>
-
 
 
